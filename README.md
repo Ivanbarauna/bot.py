@@ -1,5 +1,11 @@
 É um bot de discord simples para armazenar links e imagens eu quis fazer so como teste por que começei a cursar analise e desenvolvimento de sistemas 
+
+
+
 Requisitos para o bot rodar 
+
+
+
 #1 ter seu propria aplicação no discord developer bot
 
 
