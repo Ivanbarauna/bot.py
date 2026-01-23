@@ -17,8 +17,8 @@ LINK_XENOVERSE = os.getenv("LINK_XENOVERSE")
 
 # Carregar o token do arquivo .env
 token = os.getenv("DISCORD_TOKEN")
-prefix = os.getenv("DISCORD_PREFIX")
-welcome_chanel_id = int(os.getenv("WELCOME"))
+prefix = os.getenv("")
+# welcome_chanel_id = int(os.getenv("WELCOME"))
 
 intents = discord.Intents.default()
 intents.message_content = True
@@ -31,7 +31,6 @@ async def on_ready():
     await bot.tree.sync()
     print(f'Bot conectado como {bot.user}') 
     
-    # Comando de barra para enviar link do god of war
 @bot.tree.command()
 async def god(interaction: discord.Interaction):
     embed, file = create_embed(
